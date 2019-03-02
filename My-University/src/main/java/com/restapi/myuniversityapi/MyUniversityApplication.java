@@ -1,13 +1,13 @@
-package com.restapi.universityapi;
+package com.restapi.myuniversityapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UniversityApplication {
+public class MyUniversityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UniversityApplication.class, args);
+		SpringApplication.run(MyUniversityApplication.class, args);
 	}
 
 }

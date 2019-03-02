@@ -1,4 +1,4 @@
-package com.restapi.universityapi.teachers;
+package com.restapi.myuniversityapi.teachers;
 
 import java.util.List;
 

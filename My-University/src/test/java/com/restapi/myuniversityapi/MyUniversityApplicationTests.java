@@ -1,4 +1,4 @@
-package com.restapi.universityapi;
+package com.restapi.myuniversityapi;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UniversityApplicationTests {
+public class MyUniversityApplicationTests {
 
 	@Test
 	public void contextLoads() {

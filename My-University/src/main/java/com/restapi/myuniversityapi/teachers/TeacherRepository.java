@@ -1,4 +1,4 @@
-package com.restapi.universityapi.teachers;
+package com.restapi.myuniversityapi.teachers;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package com.restapi.universityapi.students;
+package com.restapi.myuniversityapi.students;
 
 import java.util.Date;
 import java.util.List;
@@ -13,8 +13,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
-import com.restapi.universityapi.courses.Course;
-import com.restapi.universityapi.exams.Exam;
+import com.restapi.myuniversityapi.courses.Course;
+import com.restapi.myuniversityapi.exams.Exam;
 
 @Entity 
 public class Student {
