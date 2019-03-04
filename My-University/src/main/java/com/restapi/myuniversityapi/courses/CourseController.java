@@ -14,10 +14,10 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.restapi.myuniversityapi.topics.Topic;
 
 
-@RestController 
+@RestController  
 public class CourseController {
 	
-	/*@Autowired
+	@Autowired
 	private CourseService courseservice;
 	
 	private ObjectMapper mapper;
@@ -63,5 +63,4 @@ public class CourseController {
 		ObjectNode node=mapper.createObjectNode();
 		return node.put("status", courseservice.deletecourse(id));
 	}
-	
 }

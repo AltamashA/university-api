@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-//import javax.persistence.ManyToOne;
+import javax.persistence.ManyToOne;
 
 import com.restapi.myuniversityapi.topics.Topic;
 
@@ -17,6 +17,17 @@ public class Course {
 	private long id;
 	private String name;
 	
+	@ManyToOne
+	@Column (name="topicId")
+	private Topic topic;
+	
+	public Topic getTopic() {
+		return topic;
+	}
+
+	public void setTopic(Topic topic) {
+		this.topic = topic;
+	}
 
 	public Course() {
 		
@@ -26,6 +37,7 @@ public class Course {
 		super();
 		this.id = id;
 		this.name = name;
+		this.topic = topic;
 	}
 
 	@Override
